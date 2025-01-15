@@ -17,7 +17,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Fredrick's Portfolio",
   description:
-    "Modern and minimalistic portfolio built with Next.js, and Aceternity UI",
+    "Modern and minimalistic portfolio built with Next.js, and Aceternity UI Components",
 };
 
 export default function RootLayout({

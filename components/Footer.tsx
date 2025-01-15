@@ -1,11 +1,12 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
 import { socialMedia } from "@/data";
+import Link from "next/link";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="w-full pb-10" id="contact">
+    <footer className="w-full pb-6 pt-20" id="contact">
       <div className="w-full absolute left-0 min-h-96">
         <img
           src="/footer-grid.svg"
@@ -22,13 +23,13 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="mailto:apfred18@gmail.com">
+        <Link href="mailto:apfred18@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
             position="right"
           />
-        </a>
+        </Link>
       </div>
 
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">

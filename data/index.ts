@@ -214,7 +214,7 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg", //TODO: Change to WhatsApp svg
+    img: "/wha.svg",
     link: "https://wa.me/2330549766779",
   },
 ];

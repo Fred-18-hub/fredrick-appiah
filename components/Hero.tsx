@@ -2,20 +2,16 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="md:pb-20 pb-8 md:pt-36 pt-28">
       <div>
         <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
+          className="md:top-10 top-0 md:left-20 left-10 h-screen"
           fill="white"
         />
-        <Spotlight
-          className="top-10 left-full h-[80vh] w-[50vw]"
-          fill="purple"
-        />
-        <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
       </div>
 
       <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-dot-white/[0.13] bg-dot-black/[0.2] flex items-center justify-center absolute top-0 left-0">
@@ -37,13 +33,13 @@ const Hero = () => {
             Hi, I&apos;m Fredrick, a Software Engineer based in Ghana
           </p>
 
-          <a href="#about">
+          <Link href="#about">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
               position="right"
             />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

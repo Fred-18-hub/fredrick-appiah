@@ -3,11 +3,10 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./BgGradAnimation";
 import { GridGlobe } from "./GridGlobe";
-import Lottie from "react-lottie";
 import { useState } from "react";
-import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import { FaCheck } from "react-icons/fa6";
 
 export const BentoGrid = ({
   className,
@@ -19,7 +18,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto ",
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
         className
       )}>
       {children}
@@ -50,8 +49,11 @@ export const BentoGridItem = ({
 
   const handleCopy = () => {
     navigator.clipboard.writeText("apfred18@gmail.com");
-
     setCopied(true);
+
+    setTimeout(() => {
+      setCopied(false);
+    }, 1000);
   };
 
   return (
@@ -132,25 +134,13 @@ export const BentoGridItem = ({
 
           {id === 6 && (
             <div className="mt-5 relative">
-              <div className="absolute -bottom-5 right-0">
-                <Lottie
-                  options={{
-                    loop: copied,
-                    autoplay: copied,
-                    animationData,
-                    rendererSettings: {
-                      preserveAspectRatio: "xMidYMid slice",
-                    },
-                  }}
-                />
-              </div>
-
               <MagicButton
                 title={copied ? "Email copied" : "Copy my email"}
-                icon={<IoCopyOutline />}
+                icon={copied ? <FaCheck color="#CBACF9" /> : <IoCopyOutline />}
                 position="left"
                 otherClasses="!bg-[#161a31]"
                 handleClick={handleCopy}
+                changeTextColor={copied}
               />
             </div>
           )}
