@@ -10,7 +10,7 @@ export default function Approach() {
       <h1 className="heading">
         My <span className="text-purple"> approach</span>
       </h1>
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
+      <div className="mt-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
           title="Planning & Strategy"
           icon={<PhaseIcon phase="Phase 1" />}
