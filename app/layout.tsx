@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Fredrick's Portfolio",
+  title: "Fredrick Appiah | Software Developer",
   description:
     "Modern and minimalistic portfolio built with Next.js, and Aceternity UI Components",
 };

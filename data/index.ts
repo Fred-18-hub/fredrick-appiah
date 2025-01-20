@@ -156,33 +156,19 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "hubtel",
+    img: "/hubtel.svg",
+    nameImg: "/hubtelName.svg",
+    imgClassName: "md:w-12 w-7",
+    nameImgClassName: "md:h-6 h-[1.2rem]",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "ecg",
+    img: "/ecg.png",
+    nameImg: "/ecgName.png",
+    imgClassName: "md:w-[3.3rem] w-8",
+    nameImgClassName: "md:w-[5.5rem] w-[4.4rem]",
   },
 ];
 
@@ -190,28 +176,28 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Contributed to the development of a web portal streamlining digital operations for governmental assemblies.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Backend Engineer Intern",
+    desc: "Designed and implemented API endpoints with unit test coverage in an Agile development environment.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Electricity Company of Ghana Intern",
+    desc: "Maintained customer database updates and collaborated with teams to meet organizational objectives.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Teacher",
+    desc: "Provided tutoring and conducted assessments to evaluate student performance and progress.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
