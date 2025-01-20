@@ -106,7 +106,7 @@ export const projects = [
     id: 5,
     title: "AI Facial Recognition System",
     des: "A facial recognition system built with OpenCV, capable of detecting and identifying faces.",
-    img: "/p4.svg",
+    img: "/p-fr.png",
     iconLists: ["/python.svg", "/opencv.svg"],
     link: "https://github.com/Fred-18-hub/computer-vision",
   },
