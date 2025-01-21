@@ -6,8 +6,8 @@ const Testimonials = () => {
   return (
     <div className="pt-20 md:pb-20 pb-8" id="testimonials">
       <h1 className="heading">
-        Kind words from
-        <span className="text-purple"> satisfied clients</span>
+        Hear from
+        <span className="text-purple"> impressed colleagues</span>
       </h1>
       <div className="flex mt-20 flex-col items-center">
         <InfiniteMovingCards
@@ -21,7 +21,8 @@ const Testimonials = () => {
             ({ id, img, name, nameImg, imgClassName, nameImgClassName }) => (
               <div
                 key={id}
-                className="flex md:max-w-60 max-w-32 gap-2 items-center">
+                className="flex md:max-w-60 max-w-32 gap-2 items-center"
+              >
                 <img src={img} alt={name} className={imgClassName} />
                 <img src={nameImg} alt={name} className={nameImgClassName} />
               </div>

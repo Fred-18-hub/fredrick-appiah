@@ -14,22 +14,28 @@ export default function Approach() {
         <Card
           title="Planning & Strategy"
           icon={<PhaseIcon phase="Phase 1" />}
-          description="Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project">
+          description="We'll collaborate to map out your website's goals, target audience, 
+          and key functionalities. We'll discuss things like site structure, 
+          navigation, and content requirements."
+        >
           <CanvasRevealEffect
             animationSpeed={5.1}
-            containerClassName="bg-emerald-900"
+            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
           />
         </Card>
         <Card
           title="Development & Progress Update"
           icon={<PhaseIcon phase="Phase 2" />}
-          description="Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project">
+          description="Once we agree on the plan, I cue my lofi playlist and dive into
+          coding. From initial sketches to polished code, I keep you updated
+          every step of the way."
+        >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-black"
+            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
             colors={[
-              [236, 72, 153],
-              [232, 121, 249],
+              [255, 166, 158],
+              [221, 255, 247],
             ]}
             dotSize={2}
           />
@@ -37,10 +43,13 @@ export default function Approach() {
         <Card
           title="Development & Launch"
           icon={<PhaseIcon phase="Phase 3" />}
-          description="Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project">
+          description="This is where the magic happens! Based on the approved design, 
+          I'll translate everything into functional code, building your website
+          from the ground up."
+        >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-sky-600"
+            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
             colors={[[125, 211, 252]]}
           />
         </Card>
@@ -65,7 +74,8 @@ const Card = ({
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl cursor-auto">
+      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl cursor-auto"
+    >
       <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
@@ -76,7 +86,8 @@ const Card = ({
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="h-full w-full absolute inset-0">
+            className="h-full w-full absolute inset-0"
+          >
             {children}
           </motion.div>
         )}
@@ -93,7 +104,8 @@ const Card = ({
           className="text-sm dark:text-white opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center"
           style={{
             color: "#e4ecff",
-          }}>
+          }}
+        >
           {description}
         </h2>
       </div>
@@ -123,7 +135,8 @@ const Icon = ({ className, ...rest }: any) => {
       strokeWidth="1.5"
       stroke="currentColor"
       className={className}
-      {...rest}>
+      {...rest}
+    >
       <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
     </svg>
   );
