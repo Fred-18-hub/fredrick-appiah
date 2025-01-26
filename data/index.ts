@@ -1,14 +1,15 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
   { name: "Experience", link: "#experience" },
+  { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I have practical experience in full-stack development, computer vision & UI design.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm highly adaptable to communication across time zones.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +39,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title:
+      "Highly adaptable with proven ability to quickly acquire new skills.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +51,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently building an AI Prompt Sharing Web App",
+    description: "A Glimpse Within",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +61,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Ready to start a project together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -121,34 +123,34 @@ export const projects = [
 ];
 
 export const testimonials = [
+  // {
+  //   quote:
+  //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //   name: "Jonathan Akwetey Okine",
+  //   title: "Senior Frontend Engineer",
+  //   profileImg: "/t1.jpeg",
+  // },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Jonathan Akwetey Okine",
-    title: "Senior Frontend Engineer",
-    profileImg: "/t1.jpeg",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "I had the privilege of working closely with Fredrick, an outstanding frontend engineer, during my time initially as a Backend Engineer and then later as a Lead Backend Engineer at Hubtel Limited. During this time, Fredrick demonstrated an exceptional ability to learn and adapt at an impressive pace.",
     name: "Kofi Gyasi",
     title: "Lead Backend Engineer",
     profileImg: "/t2.jpeg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Fredrick Appiah was a vital member of our backend team during his national service period. His positive attitude toward work, strong work ethic, and ability to deliver tasks efficiently stood out. Fredrick also made meaningful contributions during team meetings, showcasing his collaborative nature and problem-solving skills. It was a pleasure working with him, and I have no doubt he'll bring the same dedication and impact to any project or team he joins.",
     name: "Japhet Kuntu Blankson",
     title: "Engineering Manager, Backend",
     profileImg: "/t3.jpeg",
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Emmanuel Darko",
-    title: "Lead Backend Engineer",
-    profileImg: "/t4.jpeg",
-  },
+  // {
+  //   quote:
+  //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //   name: "Emmanuel Darko",
+  //   title: "Lead Backend Engineer",
+  //   profileImg: "/t4.jpeg",
+  // },
 ];
 
 export const companies = [

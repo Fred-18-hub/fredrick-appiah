@@ -3,10 +3,11 @@ import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="md:pb-20 pb-8 md:pt-36 pt-28">
+    <div className="md:pb-20 pb-7 md:pt-[6.5rem] pt-16">
       <div>
         <Spotlight
           className="md:top-10 top-0 md:left-20 left-10 h-screen"
@@ -29,8 +30,16 @@ const Hero = () => {
             words="Bringing Ideas to Life with Seamless User Experiences"
           />
 
+          <div className="w-32 h-32 sm:w-44 sm:h-44 md:w-52 md:h-52 lg:w-60 lg:h-60 my-4 md:my-6">
+            <img
+              src="/profile.jpg"
+              alt="Profile Image"
+              className="w-full h-full rounded-full border-4 border-purple object-cover"
+            />
+          </div>
+
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Fredrick, a Software Engineer from Ghana
+            Hi, I&apos;m Fredrick, a Software Developer from Ghana
           </p>
 
           <Link href="#about">

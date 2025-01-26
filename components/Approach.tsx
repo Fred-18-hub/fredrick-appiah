@@ -14,9 +14,9 @@ export default function Approach() {
         <Card
           title="Planning & Strategy"
           icon={<PhaseIcon phase="Phase 1" />}
-          description="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          description="Together, we'll outline your project's goals, target audience, and 
+          essential features, covering aspects like site structure, navigation, and 
+          content requirements."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,9 +26,8 @@ export default function Approach() {
         <Card
           title="Development & Progress Update"
           icon={<PhaseIcon phase="Phase 2" />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          description="Once the plan is set, I get to work. From rough sketches to refined code, 
+          I ensure you're updated at every stage of the process."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -41,11 +40,10 @@ export default function Approach() {
           />
         </Card>
         <Card
-          title="Development & Launch"
+          title="Deployment"
           icon={<PhaseIcon phase="Phase 3" />}
-          description="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          description="Development complete? Time to deploy! I conduct rigorous testing, optimize performance, and 
+          ensure a seamless user experience across all platforms."
         >
           <CanvasRevealEffect
             animationSpeed={3}
