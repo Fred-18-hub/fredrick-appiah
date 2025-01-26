@@ -1,9 +1,6 @@
-import { FaLocationArrow } from "react-icons/fa6";
-import MagicButton from "./ui/MagicButton";
+import SlidingProfile from "./ui/AnimatedProfile";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import Link from "next/link";
-import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -15,6 +12,7 @@ const Hero = () => {
         />
       </div>
 
+      {/* Dotted background */}
       <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-dot-white/[0.13] bg-dot-black/[0.2] flex items-center justify-center absolute top-0 left-0">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
@@ -30,25 +28,7 @@ const Hero = () => {
             words="Bringing Ideas to Life with Seamless User Experiences"
           />
 
-          <div className="w-32 h-32 sm:w-44 sm:h-44 md:w-52 md:h-52 lg:w-60 lg:h-60 my-4 md:my-6">
-            <img
-              src="/profile.jpg"
-              alt="Profile Image"
-              className="w-full h-full rounded-full border-4 border-purple object-cover"
-            />
-          </div>
-
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Fredrick, a Software Developer from Ghana
-          </p>
-
-          <Link href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </Link>
+          <SlidingProfile />
         </div>
       </div>
     </div>

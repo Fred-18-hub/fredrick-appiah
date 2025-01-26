@@ -210,12 +210,12 @@ export const socialMedia = [
     link: "https://github.com/Fred-18-hub",
   },
   {
-    id: 3,
+    id: 2,
     img: "/link.svg",
     link: "https://linkedin.com/in/fredrick-appiah",
   },
   {
-    id: 2,
+    id: 3,
     img: "/wha.svg",
     link: "https://wa.me/2330549766779",
   },
