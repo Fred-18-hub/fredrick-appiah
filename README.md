@@ -1,8 +1,6 @@
 <div align="center">
 <br />
-    <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
-      <img src="https://1drv.ms/i/c/302396481d314642/IQQdMBT6o1TaRbqBZVrpHZe3AUrmHxKCVr_zTSCVHWqt2cw?width=1769&height=933" alt="Project Banner">
-    </a>
+    <img src="https://1drv.ms/i/c/302396481d314642/IQQdMBT6o1TaRbqBZVrpHZe3AUrmHxKCVr_zTSCVHWqt2cw?width=1769&height=933" alt="Project Banner">
 <br />
 <h2> A Modern Next.js Dev Portfolio</h2>
 
