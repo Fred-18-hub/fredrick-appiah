@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 
-const SlidingProfile = () => {
+const AnimatedProfile = () => {
   const [showProfile, setShowProfile] = useState(false);
 
   useEffect(() => {
@@ -17,14 +17,14 @@ const SlidingProfile = () => {
   return (
     <>
       <div
-        className={`w-32 h-32 sm:w-44 sm:h-44 md:w-52 md:h-52 
-            lg:w-60 lg:h-60 my-4 md:my-6 ${
+        className={`w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 
+            lg:w-52 lg:h-52 my-4 md:my-6 ${
               showProfile ? "fade-in" : "opacity-0"
             }`}
       >
         <img
           src="/profile.jpg"
-          alt="Profile Image"
+          alt="Profile"
           className="w-full h-full rounded-full border-4 border-purple object-cover"
         />
       </div>
@@ -51,4 +51,4 @@ const SlidingProfile = () => {
   );
 };
 
-export default SlidingProfile;
+export default AnimatedProfile;

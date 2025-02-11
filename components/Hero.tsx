@@ -1,4 +1,4 @@
-import SlidingProfile from "./ui/AnimatedProfile";
+import AnimatedProfile from "./ui/AnimatedProfile";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
@@ -28,7 +28,7 @@ const Hero = () => {
             words="Bringing Ideas to Life with Seamless User Experiences"
           />
 
-          <SlidingProfile />
+          <AnimatedProfile />
         </div>
       </div>
     </div>
