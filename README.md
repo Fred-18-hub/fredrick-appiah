@@ -1,7 +1,4 @@
 <div align="center">
-<br />
-    <img src="https://1drv.ms/i/c/302396481d314642/IQQdMBT6o1TaRbqBZVrpHZe3AUrmHxKCVr_zTSCVHWqt2cw?width=1769&height=933" alt="Project Banner">
-<br />
 <h2> A Modern Next.js Dev Portfolio</h2>
 
 <p>
