@@ -51,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building an AI Prompt Sharing Web App",
+    title: "Currently building a personalized version of Y Combinator Web App",
     description: "A Glimpse Within",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -74,6 +74,20 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Promptopia - Discover AI-Powered Prompts",
+    des: "An open-source AI prompting tool for modern world to discover, create and share creative prompts.",
+    img: "/p-promptopia.png",
+    iconLists: [
+      "/next_w.svg",
+      "/re.svg",
+      "/tail.svg",
+      "/mongo.svg",
+      "/mongoose.svg",
+    ],
+    link: "https://promptopia-web-app.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Responsive Job Listing Web App",
     des: "A dynamic React web application featuring full CRUD functionality, a JSON server backend, and responsive design.",
     img: "/p-jl.png",
@@ -81,23 +95,31 @@ export const projects = [
     link: "https://github.com/Fred-18-hub/react-job-listing",
   },
   {
-    id: 2,
-    title: "ASP.NET Todo API",
-    des: "A simple ASP.NET Core Web API for managing a to-do list with CRUD operations, through secure and user-friendly endpoints.",
-    img: "/p-todoApi.png",
-    iconLists: ["/dotnet.svg", "/csharp.svg"],
-    link: "https://github.com/Fred-18-hub/asp.net-todo-api",
-  },
-  {
     id: 3,
     title: "Modern Todo Web App",
     des: "Easily add, edit, and delete tasks, enjoying a smooth and interactive user experience with real-time updates.",
     img: "/p-todoApp.png",
     iconLists: ["/vue.svg", "/sass.svg"],
-    link: "https://github.com/Fred-18-hub/vue-todo-app",
+    link: "https://vue-todo-web-app.vercel.app/",
   },
   {
     id: 4,
+    title: "Sushiman - Animated Sushi Landing Page",
+    des: "Explore a responsive sushi ordering page with smooth animations, interactive navigation, popular dishes, trending items and more.",
+    img: "/p-sushi.png",
+    iconLists: ["/js.svg", "/html.svg", "/css.svg"],
+    link: "https://vanilla-sushi-landing-page.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "ASP.NET Todo API",
+    des: "A robust ASP.NET Core Web API for managing a to-do list with CRUD operations, through secure and user-friendly endpoints.",
+    img: "/p-todoApi.png",
+    iconLists: ["/dotnet.svg", "/csharp.svg"],
+    link: "https://github.com/Fred-18-hub/asp.net-todo-api",
+  },
+  {
+    id: 6,
     title: "AI Traffic Scheduler",
     des: "Harnessing computer vision to optimize traffic flow by dynamically adjusting green light durations based on real-time vehicular data.",
     img: "/p-ts.png",
@@ -105,7 +127,7 @@ export const projects = [
     link: "https://github.com/Fred-18-hub/computer-vision",
   },
   {
-    id: 5,
+    id: 7,
     title: "AI Facial Recognition System",
     des: "A facial recognition system built with OpenCV, capable of detecting and identifying faces.",
     img: "/p-fr.png",
@@ -113,7 +135,7 @@ export const projects = [
     link: "https://github.com/Fred-18-hub/computer-vision",
   },
   {
-    id: 6,
+    id: 8,
     title: "UI/UX Designs",
     des: "A curated collection of UI/UX designs showcasing intuitive interfaces and user-centered experiences.",
     img: "/p-designs.png",
