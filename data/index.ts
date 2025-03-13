@@ -83,6 +83,7 @@ export const projects = [
       "/tail.svg",
       "/mongo.svg",
       "/mongoose.svg",
+      "/authjs.png",
     ],
     link: "https://promptopia-web-app.vercel.app/",
   },
