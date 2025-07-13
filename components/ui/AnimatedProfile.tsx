@@ -34,19 +34,32 @@ const AnimatedProfile = () => {
           showProfile ? "slide-up" : "opacity-0"
         }`}
       >
-        Hi, I&apos;m Fredrick, a Software Developer from Ghana
+        Hi, I&apos;m Fredrick, a Software Engineer from Ghana
       </p>
 
-      <Link
-        href="#about"
-        className={`${showProfile ? "slide-up" : "opacity-0"}`}
-      >
-        <MagicButton
-          title="Show my work"
-          icon={<FaLocationArrow />}
-          position="right"
-        />
-      </Link>
+      <div>
+        <Link
+          href="#about"
+          className={`${showProfile ? "slide-up" : "opacity-0"}`}
+        >
+          <MagicButton
+            title="Show my work"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </Link>
+        <Link
+          href="https://1drv.ms/b/c/302396481d314642/EaSDOfeeA1NJqTMsZfZbziMBCWKnDAVT9AY75irdjoxEWw"
+          target="_blank"
+          className={`${showProfile ? "slide-up" : "opacity-0"}`}
+        >
+          <MagicButton
+            title="View my CV"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </Link>
+      </div>
     </>
   );
 };

@@ -180,13 +180,21 @@ export const companies = [
   {
     id: 1,
     name: "hubtel",
+    img: "/restocloud.svg",
+    nameImg: "/restocloudName.svg",
+    imgClassName: "md:w-12 w-7",
+    nameImgClassName: "md:h-6 h-[1.2rem]",
+  },
+  {
+    id: 2,
+    name: "hubtel",
     img: "/hubtel.svg",
     nameImg: "/hubtelName.svg",
     imgClassName: "md:w-12 w-7",
     nameImgClassName: "md:h-6 h-[1.2rem]",
   },
   {
-    id: 2,
+    id: 3,
     name: "ecg",
     img: "/ecg.png",
     nameImg: "/ecgName.png",
@@ -198,31 +206,31 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Contributed to the development of a web portal streamlining digital operations for governmental assemblies.",
+    title: "Full-stack Engineer",
+    desc: "Handle the end-to-end development and maintenance of Watchman Hub and RestoCloud projects.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Backend Engineer Intern",
+    title: "Frontend Engineer",
+    desc: "Contributed to the development of a web portal streamlining digital operations for governmental assemblies.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 3,
+    title: "Backend Engineer",
     desc: "Designed and implemented API endpoints with unit test coverage in an Agile development environment.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Electricity Company of Ghana Intern",
     desc: "Maintained customer database updates and collaborated with teams to meet organizational objectives.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Teacher",
-    desc: "Provided tutoring and conducted assessments to evaluate student performance and progress.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -246,5 +254,5 @@ export const socialMedia = [
 
 export const techStack = {
   left: ["NextJS", "VueJS", "TypeScript"],
-  right: ["ASP.NET/C#", "ReactJS", "Python"],
+  right: ["ASP.NET/C#", "ExpressJS", "Python"],
 };
