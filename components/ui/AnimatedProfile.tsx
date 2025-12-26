@@ -49,7 +49,7 @@ const AnimatedProfile = () => {
           />
         </Link>
         <Link
-          href="https://1drv.ms/b/c/302396481d314642/EaSDOfeeA1NJqTMsZfZbziMBCWKnDAVT9AY75irdjoxEWw"
+          href="https://1drv.ms/b/c/302396481d314642/IQA0ozj5V_TdTog-6ftxFoCbAYOxTOnwmVhIUNG6WEssmhk?e=95evpa"
           target="_blank"
           className={`${showProfile ? "slide-up" : "opacity-0"}`}
         >
